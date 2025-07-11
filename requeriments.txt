@@ -6,3 +6,27 @@ pip install -r requirements.txt
 Para Ejecutar el Programa:
 
 python interfaz.py
+
+
+Para poder ejecutar el sistema se deben guardar los archivos y carpetas de la siguiente manera:
+
+GestorChucherriasDeEnsueño/
+│
+├── database/
+       └── setup_db
+├── requirements.txt
+├── README.md
+├── gui/
+    ├── interfaz.py
+    ├── gestor.db
+    ├── crear_db
+    └── models/
+          ├── _init_.py
+          ├── producto.py
+          ├── venta.py
+          ├── categoria.py
+          └── _pycache_
+                  ├── _init_.cpython-312.py
+                  ├── producto.cpython-312.py
+                  ├── categoria.cpython-312.py
+                  └── venta.cpython-312
